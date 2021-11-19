@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "iconitos";
+  src: url("../fonts/icomoon.eot?tjxtwy");
+  src: url("../fonts/icomoon.eot?tjxtwy#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?tjxtwy") format("truetype"),
+    url("../fonts/icomoon.woff?tjxtwy") format("woff"),
+    url("../fonts/icomoon.svg?tjxtwy#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body {
+  background: #e8e8e8;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+}
+
+section article {
+  background: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  -webkit-box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 9px -1px rgba(0,0,0,0.75);
+    width: 47%;
+    display: inline-block;
+    margin: 0px 10px 20px 0px;
+}
+
+section article .post {
+  border-bottom: 3px solid #22bce0;
+  display: flex;
+}
+
+section article .post .imagen img {
+  height: 200px;
+}
+
+section article .post .imagen {
+  margin: 5px 5px 5px 5px;
+}
+
+section article .post .contenido {
+  margin-left: 20px;
+  width: 100%;
+}
+
+section article .post .contenido .titulo-autor h1 {
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+section article .post .contenido .titulo-autor p {
+  margin: 10px 0px 0px 0px;
+}
+
+section article .post .contenido .titulo-autor p a {
+  color: #dd4f24;
+}
+
+section article .post .contenido .tag-tiempo {
+  margin-top: 30px;
+}
+
+section article .post .contenido .tag-tiempo .tag {
+  float: left;
+  background: #22bce0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 7px 7px 7px;
+  border-radius: 15px;
+}
+
+section article .post .contenido .tag-tiempo .tiempo {
+  float: right;
+}
+
+section article .post .contenido .tag-tiempo .tiempo p {
+  margin: 7px 20px 0px 0px;
+}
+
+section article .post .contenido .tag-tiempo .tiempo p span {
+  font-weight: bold;
+}
+
+section article .estadisticas {
+  height: 50px;
+}
+
+section article .estadisticas .contador,
+section article .estadisticas .puntuacion {
+  display: flex;
+}
+
+section article .estadisticas .contador {
+  float: left;
+  margin-left: 30px;
+}
+
+section article .estadisticas .contador .farriba {
+  font-family: "iconitos";
+  transform: rotate(-90deg);
+  font-size: 20px;
+  color: #008000;
+  cursor: pointer;
+}
+
+section article .estadisticas .contador .fabajo {
+  font-family: "iconitos";
+  transform: rotate(90deg);
+  font-size: 20px;
+  color: #dd4f24;
+  cursor: pointer;
+}
+
+section article .estadisticas .puntuacion {
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px; 
+}
+
+section article .estadisticas .puntuacion p {
+    background: #444;
+    color: white;
+    padding: 5px 7px 5px 5px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 5px;
+  }
+
+section article .estadisticas .puntuacion .estrella {
+  font-family: "iconitos";
+  margin-top: 3px;
+  font-size: 20px;
+  color: #fcb92d;
+}
+
+#agregar, #publicar2{
+  background-color: #fb84ff;
+  border-radius: 10px;
+  color: #444;
+  height: 30px;
+  width: 75px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#titulo, #autor, #tag{
+  margin-bottom: 5px;
+  height: 30px;
+  width: 1260px;
+  border-radius: 10px;
+}
